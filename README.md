@@ -1,5 +1,7 @@
 # X-Nav-Practica-Hoteles
 
+He añadido un .manifest para poder trabajar offline.
+
 Nombre y titulación: Alejandro Valeriano Fernández, Tecnología de la telecomunicación
 
 Nombre de su cuenta en el laboratorio del alumno: alexeal
