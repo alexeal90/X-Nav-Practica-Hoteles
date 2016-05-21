@@ -1,0 +1,8 @@
+CACHE MANIFEST
+/bootstrap/*
+/leaflet/*
+/jquery-ui/*
+/images/*
+/alojamientos.js
+/alojamientos.css
+/alojamientos.json
