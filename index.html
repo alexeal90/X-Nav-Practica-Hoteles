@@ -30,26 +30,28 @@
 
 	</head>
 	<body>
-		<div id="banner">
-			<h3>BUSCATE LA VIDA EN OTRO LUGAR</h3>
+		<div class="jumbotron">
+      <div id="banner" class="container" >
+        <h2>Bienvenido a HOTELIAPP, La aplicación web para buscar hoteles con tus amigos</h2>
+      </div>
 		</div>
 		<div id="menu">
-			<div style="color: black;"> MENU </div>
+			<div id="menutext">~~~~ MENU ~~~~</div>
 			<button type="button" id="button-principal" class="button-menu"> PRINCIPAL </button>
 			<button type="button" id="button-colecciones" class="button-menu"> COLECCIONES </button>
 			<button type="button" id="button-alojados" class="button-menu"> ALOJADOS </button>
 			<button type="button" id="button-guardar" class="button-menu"> GUARDAR COL. </button>
 			<button type="button" id="button-cargar" class="button-menu"> CARGAR COL. </button>
 
-			<div id="formulario-git" class="col-xs-4 col-md-4" style="top: 5%; left: 20%; color: black;" hidden="true" >
-      		Token : <input id="token" type="password" name="token" value="" size="36" />
-    			<div id="rest-form-guardar" style="color: black;" hidden="true">
-      				Repositorio : <input id="repositorio" type="text" name="Repositorio" value="" size="36" /></br>
-      				Fichero: <input id="fichero" type="text" name="fichero" value="" size="18" />
+			<div id="formulario-git" class="col-xs-4 col-md-4" hidden="true" >
+      		<span style="color: white;">Token : </span><input id="token" type="password" name="token" value="" size="36" />
+    			<div id="rest-form-guardar" hidden="true">
+      				<span style="color: white;">Repositorio : </span><input id="repositorio" type="text" name="Repositorio" value="" size="36" /></br>
+      				<span style="color: white;">Fichero: </span><input id="fichero" type="text" name="fichero" value="" size="18" />
       				<button id="guardar" type="button">Guardar!</button>
       		</div>
-					<div id="rest-form-cargar" style="color: black;" hidden="true">
-      				Url : <input id="url" type="text" name="url" value="" size="36" />
+					<div id="rest-form-cargar" hidden="true">
+      				<span style="color: white;">Url : </span><input id="url" type="text" name="url" value="" size="36" />
       				<button id="cargar" type="button">Cargar!</button>
       		</div>
     	</div>
@@ -113,12 +115,12 @@
 		<div id="pantalla-alojados" hidden="true">
 			<div id="alojados" class="col-md-8 col-sm-12"></div>
 			<div id="usuariosGOOGLE" style="height: 100%" class="col-md-4 col-sm-12">
-				<div id="formulario_usuariosGOOGLE" style="color: black;" class="col-md-12 col-sm-12">
-					<label for="tags">id del usuario de Google+: </label>
-	  				<input id="id_usuariosGOOGLE" style="color: black; width: 39%">
-	  				<button id="boton_usuariosGOOGLE" style="color: black;">Añadir!</button>
+				<div id="formulario_usuariosGOOGLE" class="col-md-12 col-sm-12">
+					<label for="tags" style="float:left">id del usuario de Google+: </label>
+	  			<input id="id_usuariosGOOGLE" style="color: black; width: 39%">
+	  			<button id="boton_usuariosGOOGLE" style="color: black;">Añadir!</button>
 				</div>
-				<div style="color: black; overflow-y: scroll; height: 90%" class="col-md-12 col-sm-12">
+				<div id="lista" style="color: black; overflow-y: scroll; height: 90%" class="col-md-12 col-sm-12">
 					<ul id="lista_usuariosGOOGLE" class="col-md-12 col-sm-12">
 					</ul>
 				</div>
