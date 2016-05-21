@@ -171,7 +171,7 @@ function get_accomodations(){
       /*MOSTRAR FORMULARIOS PARA GUARDAR O CARGAR JSON*/
       if ($(this).attr('id') == "button-guardar"){
         if (!tokenshow) {
-          $("#formulario-git").show();var apiKey = 'AIzaSyC5hQk4LZTwNNfMJoYXYiUIZL94sWipgXk';
+          $("#formulario-git").show();
           $("#rest-form-guardar").show();
           $("#rest-form-cargar").hide();
           tokenshow = true;
